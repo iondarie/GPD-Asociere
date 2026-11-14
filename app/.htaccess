@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+# Root entry points and packaged assets only. Private data and PHP source are denied.
+RewriteRule ^$ index.php [END]
+RewriteRule ^(?:index|api|setup)\.php$ - [END]
+RewriteRule ^assets/([A-Za-z0-9_./-]+)$ public/assets/$1 [END]
+RewriteRule ^ - [F,END]
