@@ -1,4 +1,4 @@
-# PLĂȚI GOLDENDRINKS.ro
+# PLĂȚI GOLDENDRINKS.ro · v5.0
 
 Aplicație internă de reconciliere a facturilor OMC, comenzilor SITE, expedierilor FAN și plăților NETOPIA. Rulează cu PHP și MariaDB/MySQL pe Synology Web Station. Interfața folosește HTML, CSS și JavaScript, fără un build frontend obligatoriu.
 
@@ -16,4 +16,4 @@ Raportul reunește factura, livrarea, metoda de plată și viramentul. Operatori
 
 `app/` conține aplicația. `tests/` conține verificări reutilizabile cu date sintetice. Schema este disponibilă în `app/schema.sql` și în forma încărcată de instalator din `app/src/schema.php`.
 
-Această versiune pornește de la sursele reconstrucției 4.0 din workspace și include reconcilierea financiară FAN. Datele operaționale și deciziile salvate se recuperează din backupul autorizat al aplicației. Repository-ul este pentru cod și documentație.
+Versiunea 5.0 păstrează logica financiară și toate deciziile existente, dar unifică interfața într-un stil Apple / Linear: spațiere mai clară, tipografie compactă, controale consistente și aceleași reguli vizuale în toate listele. Datele operaționale și deciziile salvate se recuperează din backupul autorizat al aplicației. Repository-ul este pentru cod și documentație.
